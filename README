@@ -1,0 +1,6 @@
+Compilar:
+Para compilar basta acessar a pasta raíz pelo terminal e digitar make.
+
+Dificuldades:
+Tive que pesquisar algumas "coisas" no cpp.reference.
+EX: "set" .

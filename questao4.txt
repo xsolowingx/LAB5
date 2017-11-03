@@ -1,0 +1,10 @@
+O propósito do código da questão 4, é o de dado um vector de int (col), ele ira criar um segundo vector(col2) com os respectivos quadrados dos elementos do 1° vector(col) mantendo a ordem.
+
+std::vector<Template>::push_back:
+	adiciona elementos ao final do vetor.
+
+std::back_inserter:
+	é uma função parecida com o "push_back",só que com iteradores, ela retorna um iterador que aponta para o final do "container", ao qual quando se interage com ele, ele vai construir os elementos e irá inserir no final do "conteiner".
+
+std::transform:
+	é uma função que apartir de um intervalo entre iteradores, ela irá transformar esses elementos dentro do intervalo, em novos apartir da operação que foi passada como parâmetro, colocando os no iterador de saída, que nesse caso tá sendo o "back_inserter(col2)".
